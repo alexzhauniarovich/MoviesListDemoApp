@@ -9,9 +9,10 @@ import SwiftUI
 import MoviesListLibrary
 
 struct ContentView: View {
+    
     var body: some View {
         // Showing "Top 5 Trending movies of the week"
-        MoviesListLibrary().getMoviesListView()
+        MoviesListLibrary.MoviesListView
     }
 }
 
